@@ -26,3 +26,30 @@ Cartella: array_bonus
 Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
 Buon lavoro e buon divertimento! :faccia_leggermente_sorridente: (edited)
+
+
+PROBLEMA 1
+1 - dichiarare creare array contenente elementi indicati
+2 - aggiungere ad array un ulteriore elemento
+3 - verificare se un dato 'elemento' è presente in array
+    3.1 - dichiarare ciclo for per array e verificare se 'elemento' è presente tra quelli già inseriti
+        3.1.1 - se è presente stampare risultato positivo
+        3.1.2 - altrimenti stampare risultato negativo
+
+
+PROBLEMA 2
+1 - dichiarare array vuoto
+2 - chiedere all'utente quanti elementi dovranno comporre l'array tramite prompt
+3 - generare tanti numeri casuali quanti gli elementi dell'array
+    3.1 - dichiarare ciclo for che si ripeta per la lunghezza che dovrà avere l'array
+    3.2 - per ogni ciclo verrà generato un numero intero compreso tra 1 e 100 tramite funzioni di math random e arrotondato a intero tramite funzione math floor
+4 - stampiamo ultimi 5 elementi dell'array
+    4.1 - dichiariamo ciclo for che parta dall'ultimo elemento di array per finire a lunghezza - 5 elementi
+    4.2 - stampare in console il risultato
+
+
+PROBLEMA 3
+1 - dichiarare array di lunghezza x
+2 - dichiarare array di lunghezza y
+3 - se lunghezza di x > y allora generare un elemento casuale da aggiungere ad array y
+4 - altrimenti stampa i due array in console
