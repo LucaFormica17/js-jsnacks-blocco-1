@@ -10,10 +10,9 @@ const second = [43,54,87,21,45,65,8];
 for(let i=second.length; i<first.length; i++){
 
     if(first.length > second.length){
-        {let element = Math.floor((Math.random() * 10) + 1);
-            
-            second.push(element);
-        }
+        let element = Math.floor((Math.random() * 10) + 1);
+        second.push(element);
+        
     }
 }
 console.log(first.length, first);

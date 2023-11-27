@@ -15,11 +15,23 @@ for(let i=0; i<length; i++){
     empty.push(num);
 }
 
+
+
 //stampiamo ultimi 5 elementi dell'array
-//dichiariamo ciclo for che parta dall'ultimo elemento di array per finire a lunghezza - 5 elementi
-let print =[];
-for(let i=length; i>(length - 5); i--){
+let print = [];
+for(let i=length - 1; i>(length - 6); i--){
     //stampare in console il risultato
-    print.push(i);
+    print.push(empty[i]);
 }
 console.log(print);
+
+
+//metodo alternativo con slice
+empty.reverse();
+let new_empty = empty.slice(0,5);
+console.log(new_empty);
+
+//2 metodo alternativo
+empty.reverse();
+let new_empty_bis = empty.slice(-5);
+console.log(new_empty_bis);
